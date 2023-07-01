@@ -24,3 +24,11 @@ def test_numeros_amigos_5():
 def test_numeros_amigos_6():
     assert numeros_amigos(1000, 2000) == "1000 y 2000 no son amigos"
     print("La función numeros_amigos_6 funciona correctamente")
+    
+def test_numeros_amigos_7():
+    assert numeros_amigos(85848, 22951) == "85848 y 22951 son amigos"
+    print("La función numeros_amigos_7 funciona correctamente")
+    
+def test_numeros_amigos_8():
+    assert numeros_amigos(85848, 22951) == "85848 y 22951 no son amigos"
+    print("La función numeros_amigos_8 funciona correctamente")
