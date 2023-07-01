@@ -13,16 +13,3 @@ def test_numeros_amigos_2():
     assert numeros_amigos(1184,1210) == "1184 y 1210 no son amigos"
     print("La función numeros_amigos_2 funciona correctamente")
     
-@pytest.mark.parametrize(
-    "input_x, input_y, esperado",
-    [
-        (1500, 2000, "1500 y 2000 no son amigos")
-        (10744, 10856, "10744 y 10856 son amigos")
-        (numero_random1,numero_random2, "{numero_random1} y {número_random2} son amigos")
-        (numero_random1,numero_random2, "{numero_random1} y {número_random2} no son amigos")
-    ]
-)
-
-def test_numeros_amigos_params(input_x, input_y, esperado):
-    assert numeros_amigos(input_x, input_y) == esperado
-    
