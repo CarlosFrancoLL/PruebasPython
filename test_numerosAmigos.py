@@ -1,3 +1,10 @@
+"""Se realizaron las pruebas con intención de que fallaran 5
+de las pruebas, se usaron el mismo número con grupos de 2 pruebas
+y por determinar debían de fallar en una u otra ya que es imposible
+que la función de ambos resultados. Los únicos con números diferentes
+son la 9 y la 10. Eso dejaría que los test_numeros_amigos 2, 4, 5, 7, 9
+fallen la prueba (5/10) y los demás la superen (5/10).
+"""
 import pytest
 from numerosAmigos import numeros_amigos
 
